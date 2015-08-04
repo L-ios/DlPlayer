@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.tpw.homeshell">
+<!--
+        **********Attention*******
+        folders must be set at front currently
+        because the container of item in the folder
+        equals id of the folder, and the id of folder
+        equals positon here, starting from 1.
+        **********Attention*******
+-->
+
+    <!--  Far-left screen [0] -->
+    <!--fix folder-->
+    <!--<fixedfolder
+        launcher:screen="1"
+        launcher:x="2"
+        launcher:y="2"
+		 launcher:className="apps"
+        launcher:title="@string/title_folder_recommend_app">
+
+        <favorite
+            launcher:packageName="com.eg.android.AlipayGphone"
+            launcher:className="com.eg.android.AlipayGphone.AlipayLogin"
+            launcher:screen="0"
+            launcher:x="0"
+            launcher:y="0"
+             />
+        <favorite
+            launcher:packageName="com.yunos.weatherservice"
+            launcher:className="com.yunos.weather.view.detail.DetailWeatherActivity"
+            launcher:screen="0"
+            launcher:x="0"
+            launcher:y="0"
+            />
+        <favorite
+            launcher:packageName="me.chunyu.ChunyuDoctor"
+            launcher:className="me.chunyu.ChunyuDoctor.Activities.WelcomeActivity"
+            launcher:screen="0"
+            launcher:x="0"
+            launcher:y="0"
+             />
+        <favorite
+            launcher:packageName="com.sohu.newsclient"
+            launcher:className="com.sohu.newsclient.app.SplashActivity"
+            launcher:screen="0"
+            launcher:x="0"
+            launcher:y="0"
+             />
+
+        <favorite
+            launcher:packageName="com.shuqi.controller"
+            launcher:className="com.shuqi.controller.Loading"
+            launcher:screen="0"
+            launcher:x="0"
+            launcher:y="0"
+            />
+        <favorite
+            launcher:packageName="com.pplive.androidphone"
+            launcher:className="com.pplive.androidphone.ui.FirstActivity"
+            launcher:screen="0"
+            launcher:x="0"
+            launcher:y="0"
+            />
+    </fixedfolder>
+    <fixedfolder
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="2"
+		 launcher:className="games"
+        launcher:title="@string/title_folder_games">
+
+        <favorite
+            launcher:packageName="com.yunos.gamestore"
+            launcher:className="com.yunos.gamestore.ui.activity.LogoActivity"
+            launcher:screen="0"
+            launcher:x="0"
+            launcher:y="0"
+             />
+        <favorite
+            launcher:packageName="com.tpw.issuereporter"
+            launcher:className="com.tpw.issuereporter.MainActivity"
+            launcher:screen="0"
+            launcher:x="0"
+            launcher:y="0"
+            />
+        <favorite
+            launcher:packageName="com.ggs.leidian2.coemm2"
+            launcher:className="com.ggs.leidian2.leidian2"
+            launcher:screen="0"
+            launcher:x="0"
+            launcher:y="0"
+             />
+
+	<favorite
+            launcher:packageName="com.zm.plant_simple_hy"
+            launcher:className="com.zm.plant_simple_hy.plant_simple"
+            launcher:screen="0"
+            launcher:x="0"
+            launcher:y="0"
+             />
+        <favorite
+            launcher:packageName="com.mas.wawagame.Kuwajjlord.dz01"
+            launcher:className="com.mas.wawapak.activity.MainMenuActivity"
+            launcher:screen="0"
+            launcher:x="0"
+            launcher:y="0"
+             />
+         <favorite
+            launcher:packageName="com.yy.yymeet"
+            launcher:className="com.yy.iheima.startup.SplashActivity"
+            launcher:screen="0"
+            launcher:x="0"
+            launcher:y="0"
+            />
+        <favorite
+            launcher:packageName="com.boyaa.lordland.dz_yz"
+            launcher:className="com.boyaa.lordland.sina.Game"
+            launcher:screen="0"
+            launcher:x="0"
+            launcher:y="0"
+            />
+    </fixedfolder>-->
+    <!--fix folder-->
+
+    <!--widget-->
+    <!--<gadget
+        launcher:packageName="com.tpw.homeshell"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="4"
+        launcher:spanY="1"
+        launcher:title="@string/clock_apollo_4x1"/>
+
+     <appwidget
+        launcher:packageName="com.yunos.alimobilesearch"
+        launcher:className="com.yunos.alimobilesearch.widget.SearchWidgetProvider"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="1"
+        launcher:spanX="4"
+        launcher:spanY="1"/>-->
+    <!--widget-->
+
+    <!--shortcut-->
+    <!--gallery-->
+    <!--<favorite
+        launcher:packageName="com.tpw.image"
+        launcher:className="com.tpw.image.app.Gallery"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="3"
+        launcher:container="-100" />-->
+    <!--shortcut-->
+
+    <!--hotseat-->
+    <favorite
+        launcher:packageName="com.android.dialer"
+        launcher:className="com.android.dialer.DialtactsActivity"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:container="-101" />
+    <favorite
+        launcher:packageName="com.android.mms"
+        launcher:className="com.android.mms.ui.BootActivity"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="0"
+        launcher:container="-101" />
+    <favorite
+        launcher:packageName="com.android.contacts"
+        launcher:className="com.android.contacts.activities.PeopleActivity"
+        launcher:screen="2"
+        launcher:x="2"
+        launcher:y="0"
+        launcher:container="-101" />
+    <favorite
+        launcher:packageName="com.android.browser"
+        launcher:className="com.android.browser.BrowserActivity"
+        launcher:screen="3"
+        launcher:x="3"
+        launcher:y="0"
+        launcher:container="-101" />
+    <!--hotseat-->
+
+</favorites>

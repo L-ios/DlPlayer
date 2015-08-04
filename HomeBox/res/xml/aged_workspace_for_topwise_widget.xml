@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.tpw.homeshell">
+
+    <!--//start:fanxiangjian,topwie widget-->
+    <!-- <appwidget
+        launcher:packageName="com.topwise.calendar"
+        launcher:className="com.topwise.calendar.CalendarAppWidgetProvider"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="3"
+        launcher:spanY="3" />
+
+    <appwidget
+        launcher:packageName="com.topwise.coolshow"
+        launcher:className="com.topwise.coolshow.CoolShow"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="3"
+        launcher:spanY="3" /> -->
+    <!--//end:fanxiangjian,topwie widget-->
+    <!-- gadget -->
+    <!-- <gadget
+        launcher:packageName="com.tpw.homeshell"
+        launcher:screen="2"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="3"
+        launcher:spanY="1"
+        launcher:title="@string/clock_apollo_4x1"/> -->
+
+    <!-- hotseat begin -->
+    <favorite
+        launcher:packageName="com.android.dialer"
+        launcher:className="com.android.dialer.DialtactsActivity"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:container="-101" />
+    <favorite
+        launcher:packageName="com.android.mms"
+        launcher:className="com.android.mms.ui.BootActivity"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="0"
+        launcher:container="-101" />
+    <favorite
+        launcher:packageName="com.android.contacts"
+        launcher:className="com.android.contacts.activities.PeopleActivity"
+        launcher:screen="2"
+        launcher:x="2"
+        launcher:y="0"
+        launcher:container="-101" />
+    <favorite
+        launcher:packageName="com.android.browser"
+        launcher:className="com.android.browser.BrowserActivity"
+        launcher:screen="3"
+        launcher:x="3"
+        launcher:y="0"
+        launcher:container="-101" />
+    <!-- hotseat end -->
+
+    <!-- screen 2 begin -->
+    <!-- <favorite
+        launcher:packageName="com.tpw.image"
+        launcher:className="com.tpw.image.app.Gallery"
+        launcher:screen="2"
+        launcher:x="0"
+        launcher:y="2" /> -->
+
+    <!-- screen 2 end -->
+
+    <!-- screen 3 begin -->
+    <!-- <favorite
+            launcher:packageName="com.yunos.calculator"
+            launcher:className="com.yunos.calculator.Calculator"
+            launcher:screen="3"
+            launcher:x="0"
+            launcher:y="0"/> -->
+
+    <!--
+    <favorite
+        launcher:packageName="com.autonavi.minimap"
+        launcher:className="com.autonavi.map.activity.SplashActivity"
+        launcher:screen="3"
+        launcher:x="1"
+        launcher:y="1" />
+    -->
+    <!-- <favorite
+        launcher:packageName="com.tpw.wireless.vos.appstore"
+        launcher:className="com.tpw.wireless.vos.appstore.LogoActivity"
+        launcher:screen="3"
+        launcher:x="1"
+        launcher:y="1" />
+
+    <favorite
+        launcher:packageName="com.UCMobile"
+        launcher:className="com.UCMobile.main.UCMobile"
+        launcher:screen="3"
+        launcher:x="2"
+        launcher:y="1"/>
+    <favorite
+        launcher:packageName="com.UCMobile.intl"
+        launcher:className="com.UCMobile.main.UCMobile"
+        launcher:screen="3"
+        launcher:x="2"
+        launcher:y="1"/>
+
+    <folder
+        launcher:screen="3"
+        launcher:x="0"
+        launcher:y="2"
+        launcher:title="@string/other_apps">
+
+        <favorite
+            launcher:packageName="com.android.development"
+            launcher:className="com.android.development.Development"
+            launcher:screen="0"
+            launcher:x="0"
+            launcher:y="0"
+            launcher:container="3" />
+
+        <favorite
+            launcher:packageName="com.android.apr"
+            launcher:className="com.android.apr.android.AprConfigActivity"
+            launcher:screen="0"
+            launcher:x="1"
+            launcher:y="0"
+            launcher:container="3" />
+
+        <favorite
+            launcher:packageName="com.sina.weibo"
+            launcher:className="com.sina.weibo.SplashActivity"
+            launcher:screen="0"
+            launcher:x="2"
+            launcher:y="0"
+            launcher:container="3" />
+
+        <favorite
+            launcher:packageName="com.taobao.taobao"
+            launcher:className="com.taobao.tao.Welcome"
+            launcher:screen="0"
+            launcher:x="0"
+            launcher:y="1"
+            launcher:container="3" />
+
+        <favorite
+            launcher:packageName="com.eg.android.AlipayGphone"
+            launcher:className="com.eg.android.AlipayGphone.AlipayLogin"
+            launcher:screen="0"
+            launcher:x="1"
+            launcher:y="1"
+            launcher:container="3" />
+
+        <favorite
+            launcher:packageName="com.alibaba.android.babylon"
+            launcher:className="com.alibaba.android.babylon.biz.InitActivity"
+            launcher:screen="0"
+            launcher:x="2"
+            launcher:y="1"
+            launcher:container="3" />
+
+        <favorite
+            launcher:packageName="cn.andouya"
+            launcher:className="cn.andoumiao2.messenger.MainActivity"
+            launcher:screen="0"
+            launcher:x="0"
+            launcher:y="2"
+            launcher:container="3" />
+
+        <favorite
+            launcher:packageName="com.tpw.SecurityCenter"
+            launcher:className="com.tpw.SecurityCenter.ui.SecurityCenterActivity"
+            launcher:screen="0"
+            launcher:x="1"
+            launcher:y="2"
+            launcher:container="3" />
+
+         <favorite
+            launcher:packageName="com.yunos.theme.thememanager"
+            launcher:className="com.yunos.theme.thememanager.ThemeLogoActivity"
+            launcher:screen="0"
+            launcher:x="2"
+            launcher:y="2"
+            launcher:container="3"/>
+
+        <favorite
+            launcher:packageName="com.tpw.note"
+            launcher:className="com.tpw.note.activity.NotesListActivity"
+            launcher:screen="1"
+            launcher:x="0"
+            launcher:y="0"
+            launcher:container="3" />
+
+        <favorite
+            launcher:packageName="com.tpw.mobile.email"
+            launcher:className="com.tpw.mobile.email.activity.Welcome"
+            launcher:screen="1"
+            launcher:x="1"
+            launcher:y="0"
+            launcher:container="3" />
+
+         <favorite
+            launcher:packageName="com.tpw.video"
+            launcher:className="com.tpw.video.VideoCenterActivity"
+            launcher:screen="1"
+            launcher:x="2"
+            launcher:y="0"
+            launcher:container="3" />
+
+        <favorite
+            launcher:packageName="com.yunos.camera"
+            launcher:className="com.yunos.camera.ScanActivity"
+            launcher:screen="1"
+            launcher:x="0"
+            launcher:y="1"
+            launcher:container="3" />
+
+        <favorite
+            launcher:packageName="com.android.deskclock"
+            launcher:className="com.android.deskclock.DeskClock"
+            launcher:screen="1"
+            launcher:x="1"
+            launcher:y="1"
+            launcher:container="3" />
+
+        <favorite
+            launcher:packageName="com.yunos.FMRadio"
+            launcher:className="com.yunos.FMRadio.FMRadioActivity"
+            launcher:screen="1"
+            launcher:x="2"
+            launcher:y="1"
+            launcher:container="3" />
+
+        <favorite
+            launcher:packageName="com.tpwos.filemanager"
+            launcher:className="com.tpwos.filemanager.FileManagerAppFrame"
+            launcher:screen="1"
+            launcher:x="0"
+            launcher:y="2"
+            launcher:container="3" />
+
+        <favorite
+            launcher:packageName="com.yunos.compass"
+            launcher:className="com.yunos.compass.CompassActivity"
+            launcher:screen="1"
+            launcher:x="1"
+            launcher:y="2"
+            launcher:container="3" />
+    </folder> -->
+    <!-- screen 3 end -->
+
+</favorites>
+

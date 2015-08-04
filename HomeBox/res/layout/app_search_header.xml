@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/header_bg_normal"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/btn_exit_keyboard"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@null"
+        android:src="@drawable/yp_back_pressed" />
+
+    <EditText android:id="@+id/info_text"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="#333333"
+        android:background="@null"
+        android:cursorVisible="false"
+        android:singleLine="true"
+        android:ellipsize="none"
+        android:focusable="false"
+        />
+
+    <ImageButton
+        android:id="@+id/btn_clearall"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@null"
+        android:src="@drawable/clear_button_bg" />
+
+</LinearLayout>

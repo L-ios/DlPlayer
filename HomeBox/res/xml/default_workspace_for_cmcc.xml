@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.tpw.homeshell" >
+
+    <!--
+        **********Attention*******
+        folders must be set at front currently
+        because the container of item in the folder
+        equals id of the folder, and the id of folder
+        equals positon here, starting from 1.
+        **********Attention*******
+    -->
+
+
+    <!-- Far-left screen [0] -->
+    <!--
+    <appwidget
+            launcher:packageName="com.tpw.homeshell"
+            launcher:className="com.tpw.homeshell.trafficpannel.TrafficPannel"
+            launcher:screen="0"
+            launcher:x="0"
+            launcher:y="0"
+            launcher:spanX="4"
+            launcher:spanY="2"/>
+    -->
+    <!--
+         <aliappwidget
+        launcher:packageName="com.tpw.homeshell"
+        launcher:className="com.tpw.homeshell.views.AliBannerView"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="4"
+        launcher:spanY="1"
+        launcher:title="@string/ali_myapp_widget_type_banner"/>
+    -->
+
+
+    <!-- folders -->
+    <!-- <folder
+        launcher:screen="1"
+        launcher:title="@string/title_folder_tools"
+        launcher:x="2"
+        launcher:y="2" >
+        <favorite
+            launcher:className="com.mediatek.FMRadio.FMRadioActivity"
+            launcher:container="1"
+            launcher:packageName="com.mediatek.FMRadio"
+            launcher:screen="0"
+            launcher:x="0"
+            launcher:y="0" />
+        <favorite
+            launcher:className="com.android.soundrecorder.SoundRecorder"
+            launcher:container="1"
+            launcher:packageName="com.android.soundrecorder"
+            launcher:screen="0"
+            launcher:x="1"
+            launcher:y="0" />
+        <favorite
+            launcher:className="com.mediatek.bluetooth.hid.BluetoothHidActivity"
+            launcher:container="1"
+            launcher:packageName="com.mediatek.bluetooth"
+            launcher:screen="0"
+            launcher:x="2"
+            launcher:y="0" />
+        <favorite
+            launcher:className="com.alibaba.yunos.fotamanager.MainFunctionsActivity"
+            launcher:container="1"
+            launcher:packageName="com.example.fotamanager"
+            launcher:screen="0"
+            launcher:x="3"
+            launcher:y="0" />
+    </folder>-->
+    <!-- First screen [0] -->
+
+
+    <!--
+         localview
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:spanX="4"
+        launcher:spanY="1"
+        launcher:localViewId="100000" /
+    -->
+
+
+    <!-- DOCK HOTSEAT start -->
+
+    <favorite
+        launcher:packageName="com.android.dialer"
+        launcher:className="com.android.dialer.DialtactsActivity"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="0"
+        launcher:container="-101" />
+    <favorite
+        launcher:packageName="com.android.mms"
+        launcher:className="com.android.mms.ui.BootActivity"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="0"
+        launcher:container="-101" />
+
+    <!-- screen should be 2 if the drawer is remove -->
+    <favorite
+        launcher:packageName="com.android.contacts"
+        launcher:className="com.android.contacts.activities.PeopleActivity"
+        launcher:screen="2"
+        launcher:x="2"
+        launcher:y="0"
+        launcher:container="-101" />
+    <favorite
+        launcher:packageName="com.android.browser"
+        launcher:className="com.android.browser.BrowserActivity"
+        launcher:screen="3"
+        launcher:x="3"
+        launcher:y="0"
+        launcher:container="-101" />
+
+    <!-- DOCK HOTSEAT end -->
+
+    <!-- <favorite
+        launcher:className="com.yunos.camera.CameraActivity"
+        launcher:packageName="com.yunos.camera"
+        launcher:screen="0"
+        launcher:x="0"
+        launcher:y="3" />
+    <favorite
+        launcher:className="com.tpw.image.app.Gallery"
+        launcher:packageName="com.tpw.image"
+        launcher:screen="0"
+        launcher:x="1"
+        launcher:y="3" />
+    <favorite
+        launcher:className="fm.xiami.bmamba.activity.StartActivity"
+        launcher:packageName="fm.xiami.yunos"
+        launcher:screen="0"
+        launcher:x="2"
+        launcher:y="3" />
+    <favorite
+        launcher:className="com.yunos.theme.thememanager.ThemeLogoActivity"
+        launcher:packageName="com.yunos.theme.thememanager"
+        launcher:screen="0"
+        launcher:x="3"
+        launcher:y="3" /> -->
+
+    <!-- second screen -->
+    <!-- <favorite
+        launcher:className="com.tpw.note.NoteActivity"
+        launcher:packageName="com.tpw.note"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="0" />
+    <favorite
+        launcher:className="com.tpw.mobile.email.activity.Welcome"
+        launcher:packageName="com.tpw.mobile.email"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="0" />
+    <favorite
+        launcher:className="com.android.calendar.AllInOneActivity"
+        launcher:packageName="com.android.calendar"
+        launcher:screen="1"
+        launcher:x="2"
+        launcher:y="0" />
+    <favorite
+        launcher:className="com.tpw.video.VideoCenterActivity"
+        launcher:packageName="com.tpw.video"
+        launcher:screen="0"
+        launcher:x="3"
+        launcher:y="0" />
+    <favorite
+        launcher:className="com.tpw.SecurityCenter.ui.SecurityCenterActivity"
+        launcher:packageName="com.tpw.SecurityCenter"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="1" />
+    <favorite
+        launcher:className="com.tpw.filemanager.FileListActivity"
+        launcher:packageName="com.tpw.filemanager"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="1" />
+    <favorite
+        launcher:className="com.mediatek.todos.TodosActivity"
+        launcher:packageName="com.mediatek.todos"
+        launcher:screen="1"
+        launcher:x="2"
+        launcher:y="1" />
+    <favorite
+        launcher:className="com.android.quicksearchbox.SearchActivity"
+        launcher:packageName="com.android.quicksearchbox"
+        launcher:screen="1"
+        launcher:x="3"
+        launcher:y="1" />
+    <favorite
+        launcher:className="com.android.alarmclock.AlarmClock"
+        launcher:container="1"
+        launcher:packageName="com.android.alarmclock"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="2" />
+    <favorite
+        launcher:className="com.android.calculator2.Calculator"
+        launcher:packageName="com.android.calculator2"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="2" /> -->
+
+    <!-- screen=1,x=2,y=2 for tools folder -->
+
+    <!-- <favorite
+        launcher:className="com.android.stk.StkLauncherActivity"
+        launcher:packageName="com.android.stk"
+        launcher:screen="1"
+        launcher:x="3"
+        launcher:y="2" />
+    <favorite
+        launcher:className="com.android.settings.tpw.AliSettingsMain"
+        launcher:packageName="com.android.settings"
+        launcher:screen="1"
+        launcher:x="0"
+        launcher:y="3" />
+    <favorite
+        launcher:className="com.yunos.aliwlan.MainActivity"
+        launcher:packageName="com.yunos.aliwlan"
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="3" />
+    <favorite
+        launcher:className="com.eg.android.AlipayGphone.AlipayLogin"
+        launcher:packageName="com.eg.android.AlipayGphone"
+        launcher:screen="1"
+        launcher:x="2"
+        launcher:y="3" />
+    <favorite
+        launcher:className="cn.wps.moffice.documentmanager.PreStartActivity"
+        launcher:packageName="cn.wps.moffice_eng"
+        launcher:screen="1"
+        launcher:x="3"
+        launcher:y="3" /> -->
+
+    <!-- third screen -->
+
+    <!-- <favorite
+        launcher:className="com.mediatek.mobileportal.MobilePortal"
+        launcher:packageName="com.mediatek.mobileportal"
+        launcher:screen="2"
+        launcher:x="0"
+        launcher:y="0" />
+    <favorite
+        launcher:className="com.aspire.mm.app.HotSaleActivity"
+        launcher:packageName="com.aspire.mm"
+        launcher:screen="2"
+        launcher:x="1"
+        launcher:y="0" />
+    <favorite
+        launcher:className="com.huawei.pisa.activity.WelcomeActivity"
+        launcher:packageName="com.huawei.pisa.activity"
+        launcher:screen="2"
+        launcher:x="2"
+        launcher:y="0" />
+    <favorite
+        launcher:className="cn.com.fetion.activity.LaunchActivity"
+        launcher:packageName="cn.com.fetion"
+        launcher:screen="2"
+        launcher:x="3"
+        launcher:y="0" />
+    <favorite
+        launcher:className="cn.emagsoftware.gamehall.GameHallShowcase"
+        launcher:packageName="cn.emagsoftware.gamehall"
+        launcher:screen="2"
+        launcher:x="0"
+        launcher:y="1" />
+    <favorite
+        launcher:className="cmccwm.mobilemusic.ui.activity.PreSplashActivityMigu"
+        launcher:packageName="cmccwm.mobilemusic"
+        launcher:screen="2"
+        launcher:x="1"
+        launcher:y="1" />
+    <favorite
+        launcher:className="com.cmread.bplusc.bookshelf.LocalMainActivity"
+        launcher:packageName="com.ophone.reader.ui"
+        launcher:screen="2"
+        launcher:x="2"
+        launcher:y="1" />
+    <favorite
+        launcher:className="com.cmcc.mobilevideo.StartActivity"
+        launcher:packageName="com.cmcc.mobilevideo"
+        launcher:screen="2"
+        launcher:x="3"
+        launcher:y="1" />
+    <favorite
+        launcher:className="com.chinamobile.cmccwifi.WelcomeActivity"
+        launcher:packageName="com.chinamobile.cmccwifi"
+        launcher:screen="2"
+        launcher:x="0"
+        launcher:y="2" />
+    <favorite
+        launcher:className="com.autonavi.minimap.Splashy"
+        launcher:packageName="com.autonavi.cmccmap"
+        launcher:screen="2"
+        launcher:x="1"
+        launcher:y="2" />
+    <favorite
+        launcher:className="com.iflytek.viafly.Home"
+        launcher:packageName="com.iflytek.cmcc"
+        launcher:screen="2"
+        launcher:x="2"
+        launcher:y="2" />
+    <favorite
+        launcher:className="com.opera.android.OupengStartActivity"
+        launcher:packageName="com.oupeng.browserpre.cmcc"
+        launcher:screen="2"
+        launcher:x="3"
+        launcher:y="2" />
+    <favorite
+        launcher:className="com.tencent.qqlive.activity.WelcomeActivity"
+        launcher:packageName="com.tencent.qqlive"
+        launcher:screen="2"
+        launcher:x="0"
+        launcher:y="3" />
+    <favorite
+        launcher:className="com.tmall.wireless.module.launchalert.TMLaunchAlertActivity"
+        launcher:packageName="com.tmall.wireless"
+        launcher:screen="2"
+        launcher:x="1"
+        launcher:y="3" />
+    <favorite
+        launcher:className="com.baidu.searchbox.MainActivity"
+        launcher:packageName="com.baidu.searchbox"
+        launcher:screen="2"
+        launcher:x="2"
+        launcher:y="3" />
+    <favorite
+        launcher:className="com.tencent.qqmusic.activity.AppStarterActivity"
+        launcher:packageName="com.tencent.qqmusic"
+        launcher:screen="2"
+        launcher:x="3"
+        launcher:y="3" /> -->
+
+</favorites>

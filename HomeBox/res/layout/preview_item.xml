@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/preview_item"
+     android:layout_width="@dimen/preview_cell_width"
+     android:layout_height="@dimen/preview_cell_height">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:focusable="true"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/preview_image"
+            android:layout_width="@dimen/preview_item_image_size"
+            android:layout_height="@dimen/preview_item_image_size"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerCrop"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/preview_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/preview_item_title_margin_top"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="@dimen/preview_item_title_padding"
+            android:paddingRight="@dimen/preview_item_title_padding"
+            android:clickable="true"
+            android:ellipsize="end"
+            android:focusable="true"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/tab_title_widget"
+            android:textColor="@color/preview_item_title_textcolor"
+            android:textSize="@dimen/preview_item_title_textsize" />
+    </LinearLayout>
+    <ImageView
+            android:id="@+id/preview_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right"
+            android:layout_marginTop="@dimen/preview_checked_image_margin_top"
+            android:layout_marginRight="@dimen/preview_checked_image_margin_right"
+            android:paddingBottom="@dimen/preview_checked_image_padding_bottom"
+            android:paddingLeft="@dimen/preview_checked_image_padding_left"
+            android:paddingRight="@dimen/preview_checked_image_padding_right"
+            android:paddingTop="@dimen/preview_checked_image_padding_top"
+            android:src="@drawable/deskedit_select"
+            android:visibility="gone"/>
+</FrameLayout>

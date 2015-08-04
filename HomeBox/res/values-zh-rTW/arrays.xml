@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries_effect_preference">
+        <item>經典</item>
+        <item>盒子外</item>
+        <item>盒子內</item> 
+        <item>向上翻轉</item>
+        <item>向下翻轉</item>
+        <item>百葉窗</item>  
+        <item>翻轉</item> 
+        <item>壓縮進出</item>
+        <item>上下浮動</item>
+        <item>淡入淡出</item>  
+    </string-array>
+    
+    <string-array name="entries_layout_preference">
+        <item>4x4</item>
+        <item>4x5</item>
+    </string-array>
+
+    <string-array name="notification_type_title">
+        <item>全部顯示</item>
+        <item>重要的顯示</item>
+        <item>不顯示</item>
+    </string-array>
+
+    <string-array name="entries_liveweather_preference">
+        <item >關聯天氣</item>
+        <item >無天氣效果</item>
+        <item >蒲公英</item>
+        <item >晴</item>
+        <item >雨</item>
+        <item >雪</item>
+        <item >霧</item>
+        <item >多雲</item>
+        <item >雷</item>
+    </string-array>
+    
+</resources>

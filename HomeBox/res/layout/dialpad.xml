@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!-- Dialpad in the Phone app. -->
+<com.tpw.homeshell.smartsearch.DigitalView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialpad"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:showDividers="beginning|middle|end"
+    android:background="@color/dialpad_digtal_field_bg_color"
+    android:divider="@drawable/dial_keyborad_bg_bottom_line">
+
+    <TableRow
+         android:layout_height="0px"
+         android:layout_weight="1">
+        <com.tpw.homeshell.smartsearch.DialpadImageButton
+            android:id="@+id/one"
+            style="@style/DialpadButtonStyle"
+            android:src="@drawable/dial_keyborad_number_1_selector"/>
+        <com.tpw.homeshell.smartsearch.DialpadImageButton
+            android:id="@+id/two"
+            style="@style/DialpadButtonStyle"
+            android:src="@drawable/dial_keyborad_number_2_selector" />
+        <com.tpw.homeshell.smartsearch.DialpadImageButton
+            android:id="@+id/three"
+            style="@style/DialpadButtonStyle"
+            android:src="@drawable/dial_keyborad_number_3_selector" />
+    </TableRow>
+
+    <TableRow
+         android:layout_height="0px"
+         android:layout_weight="1">
+        <com.tpw.homeshell.smartsearch.DialpadImageButton
+            android:id="@+id/four"
+            style="@style/DialpadButtonStyle"
+            android:src="@drawable/dial_keyborad_number_4_selector"/>
+        <com.tpw.homeshell.smartsearch.DialpadImageButton
+            android:id="@+id/five"
+            style="@style/DialpadButtonStyle"
+            android:src="@drawable/dial_keyborad_number_5_selector" />
+        <com.tpw.homeshell.smartsearch.DialpadImageButton
+            android:id="@+id/six"
+            style="@style/DialpadButtonStyle"
+            android:src="@drawable/dial_keyborad_number_6_selector" />
+    </TableRow>
+
+    <TableRow
+         android:layout_height="0px"
+         android:layout_weight="1">
+        <com.tpw.homeshell.smartsearch.DialpadImageButton
+            android:id="@+id/seven"
+            style="@style/DialpadButtonStyle"
+            android:src="@drawable/dial_keyborad_number_7_selector" />
+        <com.tpw.homeshell.smartsearch.DialpadImageButton
+            android:id="@+id/eight"
+            style="@style/DialpadButtonStyle"
+            android:src="@drawable/dial_keyborad_number_8_selector" />
+        <com.tpw.homeshell.smartsearch.DialpadImageButton
+            android:id="@+id/nine"
+            style="@style/DialpadButtonStyle"
+            android:src="@drawable/dial_keyborad_number_9_selector" />
+    </TableRow>
+
+    <TableRow
+         android:layout_height="0px"
+         android:layout_weight="1">
+        <com.tpw.homeshell.smartsearch.DialpadImageButton
+            android:id="@+id/pound"
+            style="@style/DialpadButtonStyle"
+            android:src="@drawable/dial_keyborad_number_10_selector" />
+        <com.tpw.homeshell.smartsearch.DialpadImageButton
+            android:id="@+id/zero"
+            style="@style/DialpadButtonStyle"
+            android:src="@drawable/dial_keyborad_number_0_selector" />
+        <com.tpw.homeshell.smartsearch.DialpadImageButton
+            android:id="@+id/delete"
+            style="@style/DialpadButtonStyle"
+            android:src="@drawable/dial_keyborad_number_11_selector" />
+    </TableRow>
+</com.tpw.homeshell.smartsearch.DigitalView>
