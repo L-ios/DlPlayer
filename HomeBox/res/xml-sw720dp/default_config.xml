@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<configvalue>
-    <maxscreen value="18"/>
-    <vpinstall_enable value="false"/>
-    <servicecenter_enable value="true"/>
-    <iconcardbg_enable value="true"/>
-</configvalue>

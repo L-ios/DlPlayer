@@ -1,9 +1,0 @@
-{  "support_card":"false",
-   "card_bg_color":[
-                {"packagename":"com.android.calendar","color":"#ffffffff"},
-                {"packagename":"com.android.settings","color":"#ff758a99"},
-                {"packagename":"com.mediatek.FMRadio","color":"#ffff8600"},
-                {"packagename":"com.android.deskclock.DeskClock","color":"#ff353535"},
-                {"packagename":"com.tpw.homeshell","color":"#ffff4513"}
-               ]                             
-}
