@@ -69,5 +69,24 @@ public class MusicItemAdapter extends CursorAdapter {
      */
     @Override
     public void bindView(View view, Context context, Cursor cursor) {
+        // 获取listview的item中的每一个组件id，并利用id设置内容
+        ViewHolder viewHolder = (ViewHolder) view.getTag();
+
+
+        viewHolder.playMusicButton.setImageResource(R.drawable.ic_play_normal);
+
+        String musicTitle = cursor.getString(MusicItemFragment.COL_MUSICITEM_TITLE);
+        viewHolder.musicTitleView.setText(musicTitle);
+
+        String musicSummaryTime = cursor
+                .getString(MusicItemFragment.COL_MUSICITEM_SUMMARYTIME);
+        viewHolder.musicSummayTimeView.setText(musicSummaryTime);
+
+        String musicArtist = cursor
+                .getString(MusicItemFragment.COL_MUSICITEM_ARTIST);
+        viewHolder.musicArtistView.setText(musicArtist);
+
+        String musicAlbum = cursor
+                .getString(MusicItemFragment.COL_MUSICITEM_ALBUM);
     }
 }
