@@ -16,6 +16,11 @@ public class MusicContract {
 
     //(4)构建Uri进入类，这里必须实现BaseColumns接口
     public static class MusicEntry implements BaseColumns {
-
+        public static final String TABLENAME = "music";
+        public static final String FILENAME = "filename";
+        public static final String MUSIC_TITILE = "titile";
+        public static final String MUSIC_SUMMARYTIME = "summarytime";
+        public static final String MUSIC_ARTIST = "artist";
+        public static final String MUSIC_ALBUM = "album";
     }
 }

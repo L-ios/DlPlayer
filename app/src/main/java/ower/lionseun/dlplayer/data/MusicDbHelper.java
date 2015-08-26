@@ -4,6 +4,8 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+import ower.lionseun.dlplayer.data.MusicContract.MusicEntry;
+
 /**
  * Created by lingyang on 8/20/15.
  */
@@ -23,6 +25,12 @@ public class MusicDbHelper extends SQLiteOpenHelper {
      */
     @Override
     public void onCreate(SQLiteDatabase db) {
+        String execString = "CREATE TABLE" + MusicEntry.TABLENAME + " (" +
+                MusicEntry._ID + " INTEGER PRIMARY KEY," +
+                MusicEntry._COUNT
+
+
+        db.execSQL();
 
     }
 
@@ -51,3 +59,12 @@ public class MusicDbHelper extends SQLiteOpenHelper {
 
     }
 }
+"CREATE TABLE " + FeedReaderContract.FeedEntry.TABLE_NAME + " (" +
+        FeedReaderContract.FeedEntry._ID + " INTEGER PRIMARY KEY," +
+        FeedReaderContract.FeedEntry.COLUMN_NAME_ENTRY_ID + TEXT_TYPE + COMMA_SEP +
+        FeedReaderContract.FeedEntry.COLUMN_NAME_TITLE + TEXT_TYPE + COMMA_SEP +
+        ... // Any other options for the CREATE command
+        " )";
+
+private static final String SQL_DELETE_ENTRIES =
+        "DROP TABLE IF EXISTS " + TABLE_NAME_ENTRIES;
